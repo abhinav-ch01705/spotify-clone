@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Playlist</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="bg-black">
+        <img class="logo invert" src="logo.svg" alt="">
+        <img class="home invert" src="home.svg" width="30px" alt="">
+        <button class="sbtn"></button>
+        <img class="search invert" src="search.svg" width="30px" alt="">
+
+        <div class="btns">
+            <button class="three">Premium</button>
+            <button class="three">Support</button>
+            <button class="three">Download</button>
+            <button class="install">Install app</button>
+            <button class="sign">Sign up</button>
+            <button class="log">Log in</button>
+        </div>
+
+        <i id="Hbar" class="fa-solid fa-bars"
+            style="color: hsl(141, 76%, 48%);"></i>
+    </nav>
+
+    <div class="container flex">
+
+        <!-- Left Sidebar -->
+        <div class="left border">
+
+            <div class="library">Your Library</div>
+
+            <div class="song-list">
+                <ul></ul>
+            </div>
+
+            <ul class="footer-links">
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Safety & Privacy Center</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">About Ads</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Right Side -->
+        <div class="right border scroll">
+            <div class="jagguimg">
+            <img id="jaggu" src="https://backoffice.jssuninoida.edu.in/assets/img/faculty/1770373609_6985c1e95cd1f.webp" alt="">
+            <h1  >Dr. Jagadish R.S</h1>
+            <h3>
+50,062,088 monthly listeners <br>
+Former chief Warden at JSS Noida </h3>
+            </div>
+            <div class="jaggubox"><button class="jaggubtn">
+    <i class="fa-solid fa-play" style="color: rgb(0, 0, 0);"></i>
+</button>
+<div class="follow">Follow</div>
+</div>
+            
+
+            <!-- ========= YOUR NEW PAGE CONTENT GOES HERE ========= -->
+
+
+
+            <!-- Example -->
+            <!--
+            <div class="playlist-header">
+                <img src="cover.jpg" alt="">
+                <h1>Playlist Name</h1>
+                <p>Description...</p>
+            </div>
+            -->
+
+
+
+            <!-- ================================================ -->
+
+
+            <!-- Bottom Music Player -->
+            <div class="play-control">
+
+                <div class="song-info"></div>
+
+                <div class="controls">
+                    <button id="back">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </button>
+
+                    <button id="play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+
+                    <button id="next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </button>
+                </div>
+
+                <div id="bar"></div>
+
+                <div id="bar2"></div>
+
+                <div id="heart">
+                    <i class="fa-solid fa-heart"
+                        style="color: hsl(141, 76%, 48%);"></i>
+                </div>
+
+                <div id="seekbar"></div>
+
+                <div id="song-time"></div>
+
+                <div id="duration"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

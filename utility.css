@@ -1,0 +1,25 @@
+.border{
+    border: 1px solid black;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.scroll{
+    overflow: scroll;
+    scrollbar-width: none;
+}
